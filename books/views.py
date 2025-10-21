@@ -1,6 +1,5 @@
 from rest_framework import filters
 from rest_framework import generics
-from rest_framework.pagination import PageNumberPagination
 
 from .serializers import BookSerializer
 from .models import Book
