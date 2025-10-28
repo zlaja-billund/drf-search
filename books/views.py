@@ -1,5 +1,4 @@
-from rest_framework import filters
-from rest_framework import generics
+from rest_framework import filters, generics
 
 from .serializers import BookSerializer
 from .models import Book
